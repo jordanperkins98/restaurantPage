@@ -4,39 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <nav>
         <div class="left-links">
-            <h1><span class="logotext">Dine</span>There</h1>
-            <div class="tabs">
-                <button>Home</button>
-                <button>Menu</button>
-                <button>About</button>
-                <button>Contact</button>
-            </div>
+          <h1 class="logo"><span class="logotext">Dine</span>There</h1>
+          <div class="tabs">
+            <a class="active">Home</a>
+            <a>Menu</a>
+            <a>About</a>
+            <a>Contact</a>
+          </div>
         </div>
-    
+
         <div class="right-links">
-            <button>Order Online</button>
+          <button class="cta-order">Order Online</button>
         </div>
-        
-        
       </nav>
     </header>
     <div id="content">
-      <div id="hero">
-        <p class="hero-text">Good Times with Great Friends</p>
-        <p class="hero-subtext">Discover Your Taste</p>
+      <div class="hero">
+        
+          <img src="./assets/_Burger-and-Beer.jpg" />
+          <div class="sub-hero">
+            <p class="hero-text">
+              Good Times <span>with</span><br />
+              Great Friends
+            </p>
+            <p class="hero-subtext">Discover Your Taste</p>
+          </div>
+      
+      </div>
+      <div class="about">
         <p class="hero-about">
-          Indulge in a delightful dining experience where flavors come alive and
-          cherished moments are created. Our expertly crafted dishes and
-          inviting ambiance provide the perfect backdrop for gatherings with
-          friends and loved ones. Savor each bite, relish the conversations, and
-          let the good times roll.
+          Serving Great Food <br> since 1999
         </p>
+        <img src="./assets/pexels-roman-odintsov-4552173.jpg"/>
       </div>
     </div>
   </body>
