@@ -57,19 +57,21 @@ body{
     background-color: rgb(29, 29, 29);
     color: rgb(228, 228, 228);
     
+    
 }
 
 :root{
-    --primary-color: #ad8e03;
-
+    --primary-color: #f1c500;
+    
 
 }
 
 html{
     font-size: 16px;
     font-family: "Roboto", sans-serif;
-
+    
 }
+
 
 
 
@@ -78,6 +80,7 @@ nav {
     justify-content: space-between;
     padding: 2rem 5rem;
     gap: 2rem;
+    
 }
 
 .tabs{
@@ -85,13 +88,18 @@ nav {
     gap: 3rem;
     align-items: center;
     font-weight: 600;
+    z-index: 1;
     
     
 }
 
 .tabs > a{
     cursor: pointer;
+
+    
 }
+
+
 
 button{
     appearance: none;
@@ -107,6 +115,12 @@ button{
     border-radius: 20px;
     font-weight: 600;
     cursor: pointer;
+}
+
+.cta-order:hover{
+    background-color: var(--primary-color);
+    color: rgb(29, 29, 29);
+
 }
 
 .active{
@@ -182,7 +196,7 @@ button{
 .hero > img{
     justify-self: center;
     margin-top: -7rem;
-    z-index: -1;
+    
 
 }
 
@@ -215,6 +229,26 @@ button{
 
 }
 
+.address-container > img{
+    height: 3rem;
+    width: 3rem;
+    filter:  brightness(0) invert(1);
+}
+
+.address-container{
+    display: flex;
+    margin-left: 4rem;
+    margin-top: 5rem;
+}
+
+.address{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgb(230, 230, 230);
+
+}
+
 .about{
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -228,14 +262,13 @@ button{
     margin-left: 20rem;
     text-align: center;
     
- 
 
 }
 
 .about > img{
     justify-self: center;
     margin-top: -4rem;
-    margin-left: 15rem;
+    margin-left: 10rem;
     
     z-index: 1;
 }
