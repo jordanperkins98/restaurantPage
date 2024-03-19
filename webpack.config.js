@@ -20,15 +20,14 @@ module.exports = {
             {
                 test: /\.css$/i,
                 use: ['style-loader', 'css-loader'],
-              },
+            },{
+                test: /\.svg%/,
+                type: 'asset/inline',
+
+            },
             {
                 test: /\.(woff|woff2|eot|ttf|otf)$/,
                 type: 'asset/resource',
-            },
-            {
-                test: /\.svg$/,
-                use: ['svg-inline-loader'],
-            
             },
             {
                 test: /\.(png|jpg|jpeg|gif)$/i,
