@@ -6,25 +6,50 @@ import {addImageToDiv, createDivWithClass, createImageWithSrc, createParagraphWi
 
 let menuItems = [
     {
-        name: 'Burger',
-        price: '$10',
-        description: 'A delicious burger with all the fixings'
+        name: 'The Classic Burger',
+        price: '£8',
+        description: 'A juicy beef patty with lettuce, tomato, onion, and your choice of cheese, served on a toasted brioche bun.'
     },
     {
-        name: 'Fries',
-        price: '$5',
-        description: 'Crispy fries with a side of ketchup'
+        name: 'Fish and Chips',
+        price: '£12',
+        description: 'Beer-battered cod fillets with thick-cut chips, served with tartar sauce and mushy peas.'
     },
     {
-        name: 'Soda',
-        price: '$2',
-        description: 'A refreshing soda to wash it all down'
+        name: 'Shepherd\'s Pie',
+        price: '£10',
+        description: 'A hearty dish of ground lamb and vegetables, topped with mashed potatoes and a crispy cheese crust.'
+    },
+    {
+        name: 'Bangers and Mash',
+        price: '£9',
+        description: 'Grilled pork sausages served with creamy mashed potatoes, caramelized onion gravy, and a side of buttered peas.'
+    },
+    {
+        name: 'Ploughman\'s Platter',
+        price: '£11',
+        description: 'A selection of cured meats, cheeses, pickled vegetables, crusty bread, and a tangy chutney.'
+    },
+    {
+        name: 'Pint of Ale',
+        price: '£4',
+        description: 'A refreshing pint of our locally-brewed ale, perfect to enjoy with your meal.'
     },
     {
         name: 'Sticky Toffee Pudding',
-        price: '$4',
-        description: 'A sweet treat to end your meal'
-    },
+        price: '£5',
+        description: 'A warm, gooey date cake smothered in toffee sauce, served with a scoop of vanilla ice cream.'
+    }
+
+
+
+
+
+
+
+
+
+
 ];
 
 

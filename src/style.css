@@ -272,3 +272,55 @@ button{
     
     z-index: 1;
 }
+
+
+/* homepage ends here */
+
+/* Start of menu.css */
+
+
+.menu-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin: 2rem 15rem 5rem 15rem;
+    background-color: var(--primary-color);
+    color: black;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    border: black dashed 4px;
+    padding: 2rem;
+
+}
+
+.menu-title{
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: rgb(29, 29, 29);
+    grid-column: 1 / -1;
+}
+
+.menu-item{
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: .5rem;
+}
+
+.menu-item-price{
+    grid-row:  1 / -1;
+    grid-column: 2 / -1;
+    text-align: right;
+}
+
+
