@@ -8,10 +8,10 @@ navItems.forEach(item => {
     item.addEventListener('click', (e) =>{
         const itemWithActiveClass = document.querySelector('.active');
         itemWithActiveClass.classList.remove("active");
-        e.srcElement.classList.add("active");
+        e.target.classList.add("active");
         const content = document.getElementById('content');
         content.innerHTML = '';
-        switch (e.srcElement.id) {
+        switch (e.target.id) {
             case 'home':
                 console.log("loading homepage....")
                 homepage();
